@@ -1,0 +1,59 @@
+@import url(https://fonts.googleapis.com/css?family=Michroma&display=swap);
+
+body{font-family: Michroma, serif; background: linear-gradient(141deg, #A91010 0%, #2B2B82 100%);}
+
+.navbar-light .navbar-nav .nav-link {
+    color: blueviolet;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: rgb(19, 14, 24);
+}
+
+.container-fluid .navbar-brand{color: blueviolet;}
+
+.navbar-brand img{width: 40px;}
+
+.navbar-toggler{background-color: aqua;}
+
+.card{border: 5px dotted #42b5c9;}
+
+.sid {color: aqua; background-color: #A91010 ;}
+.sid a{text-decoration: none;}
+.sid a:hover{color: #A91010;}
+
+.card{background: linear-gradient(141deg, #a91076 0%, #2B2B82 100%);
+color: aqua;}
+
+.card a{text-decoration: none;
+    color: aqua;}
+
+.textinp,.lower{color: aqua;
+margin:auto auto;}
+/* margin auto auto- центр блока */
+
+
+
+
+
+@media(max-width: 755px)
+{
+.carousel-indicators{display: none;
+
+}
+}
+
+.lower a{text-decoration: none;}
+
+footer{border-style: solid;
+    border-bottom: none;
+border-color: #A91010;}
+
+.blockimg{display: flex;
+justify-content: center;
+align-items: center;}
+
+.imgb{display: flex;
+justify-content: center;
+align-items: center;
+;}
